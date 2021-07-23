@@ -12,9 +12,17 @@ The latest addition in Jenkins pipeline job creation technique; Jenkins declarat
 ## Running Your First Declarative Pipeline
 Now that you are well-acquainted with the Jenkins pipeline’s basics, lets take a quiuck look on how to run a Jenkins declarative pipeline.
 
-### Step 1: Open Jenkins home page (http://localhost:8080) & click on New Item from the left side menu.
-### Step 2: Enter Jenkins job name & choose the style as Pipeline & click OK.
-### Step 3: Scroll down to the Pipeline section & copy-paste your first Declarative style Pipeline code from below to the script textbox.
-### Step 4: Click on the Save button & Click on Build Now from the left side menu.
+### Step 1: 
+Open Jenkins home page (http://localhost:8080) & click on New Item from the left side menu.
+### Step 2: 
+Enter Jenkins job name & choose the style as Pipeline & click OK.
+### Step 3: 
+Scroll down to the Pipeline section & copy-paste your first Declarative style Pipeline code from below to the script textbox.
+### Step 4: 
+Click on the Save button & Click on Build Now from the left side menu.
+### We can see the buid running stage by stage in the stage view
+![image](https://user-images.githubusercontent.com/87660460/126744835-d600cec1-5422-4aa8-9fea-21bb1e3430d9.png)
+### Step 5: 
+To check logs from Build Job, click on any stage & click on the check logs button. Or you can use the Console Output from the left side menu to see the logs for the build.
 
 
