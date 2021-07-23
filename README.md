@@ -76,5 +76,10 @@ Click on the Save button & Click on Build Now from the left side menu.
 ### Step 5: 
 To check logs from Build Job, click on any stage & click on the check logs button. Or you can use the Console Output from the left side menu to see the logs for the build.
 
+## For my jenkins server
+### Url: 20.105.190.43:8080
+### Username: Onyinye2021
+### Password: Kc2018
+
 
 
