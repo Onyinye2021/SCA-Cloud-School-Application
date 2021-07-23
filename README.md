@@ -13,7 +13,7 @@ The declarative pipeline is defined within a block labelled ‘pipeline’. This
 ## Pipeline concepts
 ### Pipeline
 This is a user defined block which contains all the processes such as build, test, deploy, etc. It is a collection of all the stages in a Jenkinsfile. All the stages and steps are defined within this block. It is the key block for a declarative pipeline syntax.
-https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/pipeline-new.png
+![image](https://user-images.githubusercontent.com/87660460/126752748-8e48c0d2-3ec9-4d3d-bd91-d2be59b30dff.png)
 
 ### Node
 A node is a machine that executes an entire workflow. It is a key part of the scripted pipeline syntax.
@@ -25,6 +25,7 @@ A single agent can be specified for an entire pipeline or specific agents can be
 
 ### Any
 Runs the pipeline/ stage on any available agent.
+![image](https://user-images.githubusercontent.com/87660460/126752815-f088adc4-2520-4dc7-bfb4-d5b203898269.png)
 
 ### None
 This parameter is applied at the root of the pipeline and it indicates that there is no global agent for the entire pipeline and each stage must specify its own agent.
@@ -34,16 +35,14 @@ Executes the pipeline/stage on the labelled agent.
 
 ### Docker
 This parameter uses docker container as an execution environment for the pipeline or a specific stage. In the below example I’m using docker to pull an ubuntu image. This image can now be used as an execution environment to run multiple commands.
-https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/agent-300x143.png
+![image](https://user-images.githubusercontent.com/87660460/126752889-67c8a586-bfb4-45de-ba95-80bc1309cd50.png)
 
 ### Stages
 This block contains all the work that needs to be carried out. The work is specified in the form of stages. There can be more than one stage within this directive. Each stage performs a specific task. In the following example, I’ve created multiple stages, each performing a specific task.
-https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/4.png
-
+![image](https://user-images.githubusercontent.com/87660460/126752957-c2279af6-19ec-4838-873d-5702ae22b279.png)
 ### Steps
  A series of steps can be defined within a stage block. These steps are carried out in sequence to execute a stage. There must be at least one step within a steps directive. In the following example I’ve implemented an echo command within the build stage. This command is executed as a part of the ‘Build’ stage.
- https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/six.png
-
+ ![image](https://user-images.githubusercontent.com/87660460/126752957-c2279af6-19ec-4838-873d-5702ae22b279.png)
 
 ## Creating your first Jenkins pipeline.
 Now that you are well-acquainted with the Jenkins pipeline’s basics, lets take a quiuck look on how to create a Jenkins declarative pipeline.
