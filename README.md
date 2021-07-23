@@ -73,6 +73,7 @@ Click on the Save button & Click on Build Now from the left side menu.
 ### We can see the buid running stage by stage in the stage view
 ![image](https://user-images.githubusercontent.com/87660460/126744835-d600cec1-5422-4aa8-9fea-21bb1e3430d9.png)
 ### And the deploying stage
+![image](https://user-images.githubusercontent.com/87660460/126751278-a9fbe74f-7b3e-4dbd-b3f7-ec8f59a653f5.png)
 ### Step 5: 
 To check logs from Build Job, click on any stage & click on the check logs button. Or you can use the Console Output from the left side menu to see the logs for the build.
 
