@@ -1,4 +1,4 @@
-#Jenkins Declarative Pipeline Syntax
+# Jenkins Declarative Pipeline Syntax
 Jenkins Pipeline is an automation solution that lets you create simple or complex (template) pipelines via the DSL used in each pipeline. Jenkins provides two ways of developing a pipeline- Scripted and Declarative.
 
 ##What is Jenkinsfile?
